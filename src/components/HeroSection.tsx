@@ -24,7 +24,7 @@ const HeroSection = () => {
               <br className="hidden md:block" />
               {" "}начинается c
               <br className="hidden md:block" />
-              {" "}<span className="text-accent">актуальных знаний</span>
+              {" "}<span className="text-accent-on-light">актуальных знаний</span>
             </h1>
 
             <p className="text-base lg:text-lg text-muted-foreground max-w-md mb-auto leading-relaxed">
@@ -33,20 +33,20 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-wrap items-center gap-3 mt-10">
-              <div className="group flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-200 cursor-pointer">
-                <BadgeCheck className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors duration-200" />
+              <div className="group flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-accent-on-light/40 hover:bg-accent-on-light/10 transition-all duration-200 cursor-pointer">
+                <BadgeCheck className="w-4 h-4 text-muted-foreground group-hover:text-accent-on-light transition-colors duration-200" />
                 <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
                   Сертификаты
                 </span>
               </div>
-              <div className="group flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-200 cursor-pointer">
-                <UserCheck className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors duration-200" />
+              <div className="group flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-accent-on-light/40 hover:bg-accent-on-light/10 transition-all duration-200 cursor-pointer">
+                <UserCheck className="w-4 h-4 text-muted-foreground group-hover:text-accent-on-light transition-colors duration-200" />
                 <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
                   Личный ментор
                 </span>
               </div>
-              <div className="group flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-accent/40 hover:bg-accent/5 transition-all duration-200 cursor-pointer">
-                <BrainCircuit className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-colors duration-200" />
+              <div className="group flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-accent-on-light/40 hover:bg-accent-on-light/10 transition-all duration-200 cursor-pointer">
+                <BrainCircuit className="w-4 h-4 text-muted-foreground group-hover:text-accent-on-light transition-colors duration-200" />
                 <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">
                   ИИ-практика
                 </span>
@@ -69,7 +69,7 @@ const HeroSection = () => {
                 <input
                   type="text"
                   placeholder="Иван Иванов"
-                  className="w-full px-4 py-3 bg-input rounded-xl text-sm text-foreground placeholder:text-foreground/30 outline-none focus:ring-2 focus:ring-accent transition-all duration-200"
+                  className="w-full px-4 py-3 bg-input rounded-xl text-sm text-foreground placeholder:text-foreground/30 outline-none focus:ring-2 focus:ring-accent-on-light transition-all duration-200"
                 />
               </div>
               <div>
@@ -79,7 +79,7 @@ const HeroSection = () => {
                 <input
                   type="text"
                   placeholder="@username"
-                  className="w-full px-4 py-3 bg-input rounded-xl text-sm text-foreground placeholder:text-foreground/30 outline-none focus:ring-2 focus:ring-accent transition-all duration-200"
+                  className="w-full px-4 py-3 bg-input rounded-xl text-sm text-foreground placeholder:text-foreground/30 outline-none focus:ring-2 focus:ring-accent-on-light transition-all duration-200"
                 />
               </div>
               <div>
@@ -87,7 +87,7 @@ const HeroSection = () => {
                   Выберите направление
                 </label>
                 <div className="relative">
-                  <select className="w-full px-4 py-3 bg-input rounded-xl text-sm text-foreground outline-none focus:ring-2 focus:ring-accent transition-all duration-200 appearance-none pr-10 cursor-pointer">
+                  <select className="w-full px-4 py-3 bg-input rounded-xl text-sm text-foreground outline-none focus:ring-2 focus:ring-accent-on-light transition-all duration-200 appearance-none pr-10 cursor-pointer">
                     <option>Вайбкодинг (No-code)</option>
                     <option>Промпт-инжиниринг</option>
                     <option>ИИ для руководителя</option>
@@ -105,7 +105,7 @@ const HeroSection = () => {
             <p className="text-[10px] text-muted-foreground text-center mt-3 leading-relaxed">
               Нажимая кнопку, вы соглашаетесь с политикой
               <br />
-              <a href="#" className="underline decoration-accent underline-offset-2 hover:text-foreground transition-colors duration-200">
+              <a href="#" className="underline decoration-accent-on-light underline-offset-2 hover:text-foreground transition-colors duration-200">
                 конфиденциальности
               </a>
             </p>
@@ -127,7 +127,7 @@ const HeroSection = () => {
 
         {/* Three feature cards */}
         <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-3">
-          <div className="flex w-full min-w-0 cursor-pointer flex-col gap-3 rounded-2xl border border-accent-foreground/15 bg-accent/70 p-7 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-accent-foreground/25 hover:shadow-[0_12px_40px_rgba(163,230,53,0.2)]">
+          <div className="flex w-full min-w-0 cursor-pointer flex-col gap-3 rounded-2xl border border-accent-foreground/15 bg-accent p-7 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-accent-foreground/25 hover:shadow-[0_12px_40px_rgba(163,230,53,0.2)]">
             <Zap className="w-6 h-6 text-accent-foreground" />
             <h3 className="text-lg font-bold text-accent-foreground">Быстрый старт</h3>
             <p className="text-sm text-accent-foreground/70 leading-relaxed">

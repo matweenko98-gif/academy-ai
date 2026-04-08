@@ -17,7 +17,7 @@ const QuizSection = () => {
         <div className="mb-10 lg:mb-12">
           <span className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-3 block">Категории</span>
           <h2 className="text-3xl lg:text-4xl font-extrabold text-foreground tracking-tight mb-4 max-w-2xl">
-            Выбирай под свою задачу: где <span className="text-accent">ИИ нужен</span> тебе прямо сейчас
+            Выбирай под свою задачу: где <span className="text-accent-on-light">ИИ нужен</span> тебе прямо сейчас
           </h2>
           <p className="text-lg lg:text-xl text-muted-foreground max-w-xl">
             Не важно, кем ты работаешь. Выбери направление, и мы поможем тебе найти работу, забрать все
@@ -49,7 +49,7 @@ const QuizSection = () => {
                 <h3 className="text-base font-bold text-foreground mb-2">{card.title}</h3>
                 <p className="text-sm text-muted-foreground">{card.text}</p>
               </div>
-              <a href="#" className="text-sm font-semibold text-foreground mt-4 group-hover:text-accent transition-colors duration-200">
+              <a href="#" className="text-sm font-semibold text-foreground mt-4 group-hover:text-accent-on-light transition-colors duration-200">
                 {card.link}
               </a>
             </div>

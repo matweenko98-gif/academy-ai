@@ -1,0 +1,18 @@
+{
+  "name": "ИИ Академия",
+  "short_name": "ИИ Академия",
+  "description": "Онлайн-обучение искусственному интеллекту для новичков, специалистов, руководителей и предпринимателей.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "hsl(0 0% 100%)",
+  "theme_color": "hsl(82 81% 58%)",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "ru"
+}

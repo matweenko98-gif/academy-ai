@@ -35,10 +35,10 @@ const CoursesSection = () => {
           <div>
             <span className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-3 block">Направления</span>
             <h2 className="text-3xl lg:text-4xl font-extrabold text-foreground tracking-tight max-w-lg">
-              Выбирай направление и начни <span className="text-accent">карьеру в ИИ</span>
+              Выбирай направление и начни <span className="text-accent-on-light">карьеру в ИИ</span>
             </h2>
           </div>
-          <button className="text-base font-bold text-foreground border-b-2 border-foreground pb-1 hover:border-accent hover:text-accent transition-all duration-200 whitespace-nowrap">
+          <button className="text-base font-bold text-foreground border-b-2 border-foreground pb-1 hover:border-accent-on-light hover:text-accent-on-light transition-all duration-200 whitespace-nowrap">
             Смотреть все курсы
           </button>
         </div>

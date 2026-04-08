@@ -8,7 +8,7 @@ const AILabSection = () => {
               Новое
             </span>
             <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-foreground lg:text-4xl">
-              Получи доступ к <span className="text-accent">AI-лаборатории</span>
+              Получи доступ к <span className="text-accent-on-light">AI-лаборатории</span>
             </h2>
             <p className="max-w-2xl text-lg text-muted-foreground lg:text-xl">
               Все студенты ИИ Академия получают доступ к нашим инструментам искусственного интеллекта для практики.

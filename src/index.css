@@ -30,6 +30,9 @@
     --lime: 82 81% 58%;
     --lime-foreground: 0 0% 0%;
 
+    /* Акцент для текста/обводок на светлом фоне — нейтральный #111111; яркий --accent без изменений для тёмных блоков */
+    --accent-on-light: 0 0% 6.67%;
+
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;

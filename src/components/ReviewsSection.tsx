@@ -12,13 +12,13 @@ const ReviewsSection = () => {
       <div className="max-w-[1920px] mx-auto w-full px-[40px]">
         <div className="mb-10 text-center">
           <h2 className="text-3xl lg:text-4xl font-extrabold tracking-tight mb-8">
-            Люди приходят за навыком — уходят с <span className="text-accent">результатом</span>
+            Люди приходят за навыком — уходят с <span className="text-accent-on-light">результатом</span>
           </h2>
           <div className="flex flex-col items-center gap-2 mb-4">
             <span className="text-6xl font-extrabold text-foreground">5.0</span>
             <div className="flex gap-1">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 fill-accent text-accent" />
+                <Star key={i} className="w-5 h-5 fill-accent-on-light text-accent-on-light" />
               ))}
             </div>
             <span className="text-sm text-muted-foreground">На основе 100+ отзывов</span>
@@ -28,7 +28,7 @@ const ReviewsSection = () => {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {reviews.map((r) => (
             <div key={r.name} className="w-full min-w-0 rounded-2xl border border-border bg-background/70 p-8 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-foreground/15 hover:shadow-[0_12px_40px_rgba(0,0,0,0.08)]">
-              <span className="text-2xl font-bold text-accent mb-4 block">{r.initial}</span>
+              <span className="text-2xl font-bold text-accent-on-light mb-4 block">{r.initial}</span>
               <p className="text-base text-muted-foreground mb-6 leading-relaxed">{r.text}</p>
               <span className="font-bold text-sm text-foreground">{r.name}</span>
             </div>

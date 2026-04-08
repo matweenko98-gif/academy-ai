@@ -4,7 +4,7 @@ const ContactSection = () => {
       <div className="max-w-[1920px] mx-auto w-full px-[40px] text-center">
         <span className="mb-3 block text-sm font-semibold uppercase tracking-widest text-muted-foreground">Контакты</span>
         <h2 className="mb-4 text-3xl font-extrabold tracking-tight lg:text-4xl">
-          Связаться с <span className="text-accent">нами</span>
+          Связаться с <span className="text-accent-on-light">нами</span>
         </h2>
         <p className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground lg:mb-12">
           Оставьте заявку — мы свяжемся с вами в течение 15 минут, ответим на вопросы и подскажем оптимальное решение.
@@ -37,16 +37,16 @@ const ContactSection = () => {
               <input
                 type="text"
                 placeholder="Имя"
-                className="w-full rounded-xl border border-border bg-background px-4 py-4 text-foreground outline-none transition-all duration-200 placeholder:text-foreground/40 focus:ring-2 focus:ring-accent"
+                className="w-full rounded-xl border border-border bg-background px-4 py-4 text-foreground outline-none transition-all duration-200 placeholder:text-foreground/40 focus:ring-2 focus:ring-accent-on-light"
               />
               <input
                 type="tel"
                 placeholder="Телефон"
-                className="w-full rounded-xl border border-border bg-background px-4 py-4 text-foreground outline-none transition-all duration-200 placeholder:text-foreground/40 focus:ring-2 focus:ring-accent"
+                className="w-full rounded-xl border border-border bg-background px-4 py-4 text-foreground outline-none transition-all duration-200 placeholder:text-foreground/40 focus:ring-2 focus:ring-accent-on-light"
               />
             </div>
             <label className="group mb-6 flex cursor-pointer items-start gap-3">
-              <input type="checkbox" className="mt-1 accent-[hsl(82,81%,58%)]" />
+              <input type="checkbox" className="mt-1 accent-accent-on-light" />
               <span className="text-xs text-muted-foreground transition-colors duration-200 group-hover:text-foreground/60">
                 Я согласен с политикой конфиденциальности и даю согласие на обработку персональных данных.
               </span>

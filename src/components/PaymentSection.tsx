@@ -5,7 +5,7 @@ const PaymentSection = () => {
     <section className="w-full">
       <div className="max-w-[1920px] mx-auto w-full px-[40px]">
         <h2 className="mb-10 text-3xl font-extrabold tracking-tight lg:text-4xl">
-          Гибкая оплата для <span className="text-accent">любого курса</span>
+          Гибкая оплата для <span className="text-accent-on-light">любого курса</span>
         </h2>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -15,7 +15,7 @@ const PaymentSection = () => {
             <ul className="mb-10 space-y-4">
               {["Без первого взноса", "Срок рассрочки до 24 месяцев", "Рассрочка от банков-партнёров"].map((item) => (
                 <li key={item} className="flex items-center gap-3">
-                  <Check className="h-5 w-5 shrink-0 text-accent" />
+                  <Check className="h-5 w-5 shrink-0 text-accent-on-light" />
                   <span className="text-muted-foreground">{item}</span>
                 </li>
               ))}
@@ -24,7 +24,7 @@ const PaymentSection = () => {
               <button className="rounded-button bg-foreground px-8 py-3.5 font-bold text-primary-foreground transition-all duration-200 hover:scale-[1.02] hover:bg-foreground/85 active:scale-[0.98]">
                 Оставить заявку
               </button>
-              <button className="font-semibold text-foreground transition-colors duration-200 hover:text-accent">
+              <button className="font-semibold text-foreground transition-colors duration-200 hover:text-accent-on-light">
                 Узнать больше →
               </button>
             </div>

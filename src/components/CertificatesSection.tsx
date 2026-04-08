@@ -7,13 +7,13 @@ const CertificatesSection = () => {
             <div>
               <span className="mb-3 block text-sm font-semibold uppercase tracking-widest text-muted-foreground">Документы</span>
               <h2 className="mb-4 text-3xl font-extrabold tracking-tight lg:text-4xl">
-                Сертификаты, которые усиливают <span className="text-accent">резюме</span> и доверие
+                Сертификаты, которые усиливают <span className="text-accent-on-light">резюме</span> и доверие
               </h2>
               <p className="text-lg text-muted-foreground">
                 По итогам обучения вы получаете документы, которые подтверждают ваши навыки и повышают доверие работодателей.
               </p>
             </div>
-            <div className="relative flex h-64 min-h-0 items-center justify-center overflow-hidden">
+            <div className="relative mx-auto flex w-full min-w-0 min-h-[20rem] max-w-[22rem] items-center justify-center overflow-visible py-8 sm:min-h-[22rem] sm:max-w-md sm:py-10 lg:mx-0 lg:max-w-none lg:min-h-[21rem] lg:py-8">
               <div className="absolute flex h-64 w-52 min-w-0 flex-col justify-between rounded-xl border-2 border-border bg-background/70 p-6 shadow-xl backdrop-blur-xl transition-all duration-500 -rotate-6 hover:-rotate-3 hover:shadow-2xl">
                 <div>
                   <span className="text-xs uppercase tracking-widest text-muted-foreground">ИИ Академия</span>
